@@ -241,12 +241,14 @@
       </section>
       <!-- hero image box end -->
     </header>
-    <main class="container mx-auto">
+    <main class="">
       <!-- fruit card area start -->
 
-      <section class="pb-12">
+      <section class="pb-12 container mx-auto">
         <!-- countdown area start -->
-        <div class="flex flex-col p-4 lg:flex-row justify-between gap-7 mb-12">
+        <div
+          class="flex flex-col p-4 flex-wrap md:flex-row md:flex-wrap lg:flex-row justify-between gap-7 mb-12"
+        >
           <!-- left content -->
           <div class="flex-1">
             <h2 class="text-5xl font-extrabold text-[#121212]">
@@ -293,7 +295,9 @@
         <!-- countdown area end -->
 
         <!-- card area start -->
-        <div class="grid grid-flow-row lg:grid-flow-col gap-5">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-flow-col gap-5 my-12"
+        >
           <!-- 1st card -->
           <div class="card bg-base-100 shadow-xl space-y-5">
             <figure class="px-10 pt-10">
@@ -717,8 +721,108 @@
           </div>
         </div>
         <!-- card area end -->
+        <!-- shop button -->
+        <div class="text-center">
+          <button class="btn bg-primary-color text-white font-medium">
+            Shop All
+          </button>
+        </div>
       </section>
       <!-- fruit card area end -->
+
+      <!-- team section -->
+      <section>
+        <div
+          class="hero min-h-screen"
+          style="background-image: url(asset/images/team.png)"
+        >
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="text-center text-neutral-content container py-16">
+            <div class="">
+              <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+              <p class="mb-5 w-5/6 lg:w-3/6 mx-auto">
+                Contrary to popular belief, is not simply random text. It has
+                roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old.
+              </p>
+              <!-- team member -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-around items-center my-12"
+              >
+                <!-- member profile -->
+                <div class="flex flex-col justify-center items-center gap-2">
+                  <img class="w-28" src="asset/images/member1.png" alt="" />
+                  <h3 class="text-2xl font-bold">Awlad Hossain</h3>
+                  <p>Fruits Expert</p>
+                  <ul class="space-x-4 text-center">
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-facebook"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fa-brands fa-linkedin-in"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-twitter"
+                    ></i>
+                  </ul>
+                </div>
+                <!-- member profile -->
+                <div class="flex flex-col justify-center items-center gap-2">
+                  <img class="w-28" src="asset/images/member2.png" alt="" />
+                  <h3 class="text-2xl font-bold">Safia Chowdhury</h3>
+                  <p>Fruits Expert</p>
+                  <ul class="space-x-4">
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-facebook"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fa-brands fa-linkedin-in"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-twitter"
+                    ></i>
+                  </ul>
+                </div>
+                <!-- member profile -->
+                <div class="flex flex-col justify-center items-center gap-2">
+                  <img class="w-28" src="asset/images/member3.png" alt="" />
+                  <h3 class="text-2xl font-bold">Rokib Hossain</h3>
+                  <p>Fruits Expert</p>
+                  <ul class="space-x-4">
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-facebook"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fa-brands fa-linkedin-in"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-twitter"
+                    ></i>
+                  </ul>
+                </div>
+                <!-- member profile -->
+                <div class="flex flex-col justify-center items-center gap-2">
+                  <img class="w-28" src="asset/images/member4.png" alt="" />
+                  <h3 class="text-2xl font-bold">Chaity</h3>
+                  <p>Fruits Expert</p>
+                  <ul class="space-x-4">
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-facebook"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fa-brands fa-linkedin-in"
+                    ></i>
+                    <i
+                      class="bg-primary-color p-2 rounded-full text-white fab fa-twitter"
+                    ></i>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- team section -->
     </main>
 
     <!-- footer area start -->
